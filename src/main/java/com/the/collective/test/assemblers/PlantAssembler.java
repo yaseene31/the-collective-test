@@ -1,9 +1,9 @@
 package com.the.collective.test.assemblers;
 
 import com.the.collective.test.controller.PlantController;
-import com.the.collective.test.domain.PlantService;
+import com.the.collective.test.service.PlantService;
 import com.the.collective.test.entities.Plant;
-import com.the.collective.test.resources.PlantResource;
+import com.the.collective.test.resources.PlantDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @Component
-public class PlantAssembler extends RepresentationModelAssemblerSupport<Plant, PlantResource> {
+public class PlantAssembler extends RepresentationModelAssemblerSupport<Plant, PlantDto> {
 
     @Autowired
     PlantService plantService;
@@ -23,30 +23,21 @@ public class PlantAssembler extends RepresentationModelAssemblerSupport<Plant, P
     private static final Logger logger = LoggerFactory.getLogger(PlantAssembler.class);
 
     public PlantAssembler() {
-        super(PlantController.class, PlantResource.class);
+        super(PlantController.class, PlantDto.class);
     }
 
     @Override
-    public PlantResource toModel(Plant entity) {
-        PlantResource plantResource = instantiateModel(entity);
+    public PlantDto toModel(Plant entity) {
+        PlantDto plantDto = instantiateModel(entity);
 
-        plantResource.setId(entity.getId());
-        plantResource.setYear(entity.getYear());
-        plantResource.setState(entity.getState());
-        plantResource.setName(entity.getName());
-        plantResource.setGeneratorId(entity.getGeneratorId());
-        plantResource.setGeneratorStatus(entity.getGeneratorStatus());
-        plantResource.setGeneratorAnnualNetGeneration(entity.getGeneratorAnnualNetGeneration());
+        plantDto.setId(entity.getId());
+        plantDto.setYear(entity.getYear());
+        plantDto.setState(entity.getState());
+        plantDto.setName(entity.getName());
+        plantDto.setGeneratorId(entity.getGeneratorId());
+        plantDto.setGeneratorStatus(entity.getGeneratorStatus());
+        plantDto.setGeneratorAnnualNetGeneration(entity.getGeneratorAnnualNetGeneration());
 
-        return plantResource;
-    }
-
-    @Override
-    public CollectionModel<PlantResource> toCollectionModel(Iterable<? extends Plant> entities) {
-        CollectionModel<PlantResource> plantModels = super.toCollectionModel(entities);
-
-        plantModels.add(linkTo(methodOn(PlantController.class).getAllPlants(null)).withSelfRel());
-
-        return plantModels;
+        return plantDto;
     }
 }

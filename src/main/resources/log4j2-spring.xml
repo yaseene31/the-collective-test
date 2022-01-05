@@ -51,7 +51,7 @@
 	</Appenders>
 
 	<Loggers>
-		<Logger name="com.bmw.sparc.cms" level="info" additivity="false">
+		<Logger name="com.collective.test" level="info" additivity="false">
 			<appender-ref ref="FILE-ROLLING" />
 			<appender-ref ref="FILE-ROLLING-JSON" />
 			<appender-ref ref="CONSOLE" />

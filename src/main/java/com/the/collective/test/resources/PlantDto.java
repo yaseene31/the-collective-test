@@ -4,7 +4,7 @@ import lombok.Data;
 import org.springframework.hateoas.RepresentationModel;
 
 @Data
-public class PlantResource extends RepresentationModel<PlantResource>{
+public class PlantDto extends RepresentationModel<PlantDto>{
 
 	private Long id;
 

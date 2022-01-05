@@ -21,5 +21,5 @@ CREATE TABLE PLANT (
   pname VARCHAR(500) NOT NULL,
   genid VARCHAR(500) NOT NULL,
   genstat VARCHAR(500) NOT NULL,
-  genntan VARCHAR(500)
+  genntan INT
 );

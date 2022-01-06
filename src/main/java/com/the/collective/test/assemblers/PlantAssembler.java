@@ -2,7 +2,7 @@ package com.the.collective.test.assemblers;
 
 import com.the.collective.test.controller.PlantController;
 import com.the.collective.test.entities.Plant;
-import com.the.collective.test.resources.PlantDto;
+import com.the.collective.test.dto.PlantDto;
 import com.the.collective.test.service.PlantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;

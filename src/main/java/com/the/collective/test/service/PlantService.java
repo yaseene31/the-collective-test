@@ -15,4 +15,6 @@ public interface PlantService {
     List<Plant> getPlantsByTopGenerationOutput(Integer size, String orderBy);
 
     List<Plant> getPlantsByBottomGenerationOutput(Integer size, String orderBy);
+
+    List<Object[]> getPercentageForPlantIds(String state, List<Long> plantIds);
 }

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 247,
+    "year": 2019,
+    "state": "AK",
+    "name": "Gwitchyaa Zhee",
+    "generatorId": "4A",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": 0
+  },
+  {
+    "id": 245,
+    "year": 2019,
+    "state": "AK",
+    "name": "Gwitchyaa Zhee",
+    "generatorId": "2A",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": 2
+  },
+  {
+    "id": 246,
+    "year": 2019,
+    "state": "AK",
+    "name": "Gwitchyaa Zhee",
+    "generatorId": "3",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": 4
+  },
+  {
+    "id": 248,
+    "year": 2019,
+    "state": "AK",
+    "name": "Gwitchyaa Zhee",
+    "generatorId": "5",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": 6
+  },
+  {
+    "id": 249,
+    "year": 2019,
+    "state": "AK",
+    "name": "Gwitchyaa Zhee",
+    "generatorId": "6",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": 8
+  },
+  {
+    "id": 244,
+    "year": 2019,
+    "state": "AK",
+    "name": "Gwitchyaa Zhee",
+    "generatorId": "1",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": 10
+  },
+  {
+    "id": 258,
+    "year": 2019,
+    "state": "AK",
+    "name": "Healy",
+    "generatorId": "IC1",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": 12
+  },
+  {
+    "id": 233,
+    "year": 2019,
+    "state": "AK",
+    "name": "Gold Creek",
+    "generatorId": "IC1",
+    "generatorStatus": "SB",
+    "generatorAnnualNetGeneration": 15
+  },
+  {
+    "id": 225,
+    "year": 2019,
+    "state": "AK",
+    "name": "Glennallen",
+    "generatorId": "2",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": 17
+  },
+  {
+    "id": 224,
+    "year": 2019,
+    "state": "AK",
+    "name": "Glennallen",
+    "generatorId": "1",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": 20
+  }
+]

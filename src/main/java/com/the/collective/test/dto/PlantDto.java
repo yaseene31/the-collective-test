@@ -1,4 +1,4 @@
-package com.the.collective.test.resources;
+package com.the.collective.test.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;

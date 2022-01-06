@@ -1,0 +1,92 @@
+[
+  {
+    "id": 448,
+    "year": 2019,
+    "state": "AK",
+    "name": "North Pole",
+    "generatorId": "GT3",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": 283524
+  },
+  {
+    "id": 213,
+    "year": 2019,
+    "state": "AK",
+    "name": "George M Sullivan Generation Plant 2",
+    "generatorId": "10",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": 251487
+  },
+  {
+    "id": 216,
+    "year": 2019,
+    "state": "AK",
+    "name": "George M Sullivan Generation Plant 2",
+    "generatorId": "9",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": 224751
+  },
+  {
+    "id": 94,
+    "year": 2019,
+    "state": "AK",
+    "name": "Bradley Lake",
+    "generatorId": "2",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": 206796
+  },
+  {
+    "id": 93,
+    "year": 2019,
+    "state": "AK",
+    "name": "Bradley Lake",
+    "generatorId": "1",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": 206796
+  },
+  {
+    "id": 257,
+    "year": 2019,
+    "state": "AK",
+    "name": "Healy",
+    "generatorId": "2",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": 188604
+  },
+  {
+    "id": 435,
+    "year": 2019,
+    "state": "AK",
+    "name": "Nikiski Combined Cycle",
+    "generatorId": "GT1",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": 164217
+  },
+  {
+    "id": 256,
+    "year": 2019,
+    "state": "AK",
+    "name": "Healy",
+    "generatorId": "1",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": 155956
+  },
+  {
+    "id": 57,
+    "year": 2019,
+    "state": "AK",
+    "name": "Aurora Energy LLC Chena",
+    "generatorId": "5",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": 141217
+  },
+  {
+    "id": 214,
+    "year": 2019,
+    "state": "AK",
+    "name": "George M Sullivan Generation Plant 2",
+    "generatorId": "11",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": 127630
+  }
+]

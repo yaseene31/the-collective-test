@@ -21,5 +21,5 @@ public interface PlantRepository extends PagingAndSortingRepository<Plant, Long>
 
 	@Query(value = "SELECT plant_id,ROUND(genntan * 100.0/ (SELECT sum(genntan) FROM PLANT where pstatabb = :state), 2) as percentage FROM PLANT where plant_id in (:plantIds)" +
 			"", nativeQuery = true)
-	List<Object[]> test(@Param("state") String state, @Param("plantIds") List<Long> plantIds);
+	List<Object[]> getPercentageForPlantIds(@Param("state") String state, @Param("plantIds") List<Long> plantIds);
 }

@@ -1,26 +1,21 @@
 package com.the.collective.test.assemblers;
 
 import com.the.collective.test.controller.PlantController;
-import com.the.collective.test.service.PlantService;
 import com.the.collective.test.entities.Plant;
 import com.the.collective.test.resources.PlantDto;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.the.collective.test.service.PlantService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;
 
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
+import java.util.ArrayList;
+import java.util.List;
 
 @Component
 public class PlantAssembler extends RepresentationModelAssemblerSupport<Plant, PlantDto> {
 
     @Autowired
     PlantService plantService;
-
-    private static final Logger logger = LoggerFactory.getLogger(PlantAssembler.class);
 
     public PlantAssembler() {
         super(PlantController.class, PlantDto.class);
@@ -37,7 +32,15 @@ public class PlantAssembler extends RepresentationModelAssemblerSupport<Plant, P
         plantDto.setGeneratorId(entity.getGeneratorId());
         plantDto.setGeneratorStatus(entity.getGeneratorStatus());
         plantDto.setGeneratorAnnualNetGeneration(entity.getGeneratorAnnualNetGeneration());
+        plantDto.setPercentageForLocation(entity.getPercentageForLocation());
 
         return plantDto;
+    }
+
+    public List<PlantDto> listToModel(List<Plant> entities) {
+        List<PlantDto> plantDtos = new ArrayList<>();
+        entities.forEach(plant -> plantDtos.add(
+                toModel(plant)));
+        return plantDtos;
     }
 }

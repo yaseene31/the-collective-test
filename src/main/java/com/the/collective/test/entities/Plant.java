@@ -1,23 +1,7 @@
 package com.the.collective.test.entities;
 
-import lombok.Data;
-
-import java.sql.Timestamp;
-import java.util.HashSet;
-import java.util.Set;
-
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.math.BigDecimal;
 
 @Entity
 @Table(name = "PLANT")
@@ -30,7 +14,7 @@ public class Plant {
 	private Long id;
 	
 	@Column(name = "YEAR")
-	private int year;
+	private Integer year;
 
 	@Column(name = "PSTATABB")
 	private String state;
@@ -45,12 +29,15 @@ public class Plant {
 	private String generatorStatus;
 	
 	@Column(name = "GENNTAN")
-	private String generatorAnnualNetGeneration;
+	private Integer generatorAnnualNetGeneration;
+
+	@Transient
+	private BigDecimal percentageForLocation;
 
 	public Plant() {
 	}
 
-	public Plant(Long id, int year, String state, String name, String generatorId, String generatorStatus, String generatorAnnualNetGeneration) {
+	public Plant(Long id, Integer year, String state, String name, String generatorId, String generatorStatus, Integer generatorAnnualNetGeneration, BigDecimal percentageForLocation) {
 		this.id = id;
 		this.year = year;
 		this.state = state;
@@ -58,6 +45,7 @@ public class Plant {
 		this.generatorId = generatorId;
 		this.generatorStatus = generatorStatus;
 		this.generatorAnnualNetGeneration = generatorAnnualNetGeneration;
+		this.percentageForLocation = percentageForLocation;
 	}
 
 	public Long getId() {
@@ -108,11 +96,19 @@ public class Plant {
 		this.generatorStatus = generatorStatus;
 	}
 
-	public String getGeneratorAnnualNetGeneration() {
+	public Integer getGeneratorAnnualNetGeneration() {
 		return generatorAnnualNetGeneration;
 	}
 
-	public void setGeneratorAnnualNetGeneration(String generatorAnnualNetGeneration) {
+	public void setGeneratorAnnualNetGeneration(Integer generatorAnnualNetGeneration) {
 		this.generatorAnnualNetGeneration = generatorAnnualNetGeneration;
+	}
+
+	public BigDecimal getPercentageForLocation() {
+		return percentageForLocation;
+	}
+
+	public void setPercentageForLocation(BigDecimal percentageForLocation) {
+		this.percentageForLocation = percentageForLocation;
 	}
 }

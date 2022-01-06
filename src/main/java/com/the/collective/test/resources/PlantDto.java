@@ -1,9 +1,13 @@
 package com.the.collective.test.resources;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 import org.springframework.hateoas.RepresentationModel;
 
+import java.math.BigDecimal;
+
 @Data
+@JsonInclude(value = JsonInclude.Include.NON_NULL)
 public class PlantDto extends RepresentationModel<PlantDto>{
 
 	private Long id;
@@ -18,5 +22,7 @@ public class PlantDto extends RepresentationModel<PlantDto>{
 
 	private String generatorStatus;
 
-	private String generatorAnnualNetGeneration;
+	private Integer generatorAnnualNetGeneration;
+
+	private BigDecimal percentageForLocation;
 }

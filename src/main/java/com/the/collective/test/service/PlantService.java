@@ -4,11 +4,15 @@ import com.the.collective.test.entities.Plant;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
+import java.util.List;
+
 public interface PlantService {
-	
-	Page<Plant> listAll(Pageable pageable);
      
     Plant get(long id);
 
     Page<Plant> getPlantsByState(String state, Pageable pageable);
+
+    List<Plant> getPlantsByTopGenerationOutput(Integer size, String orderBy);
+
+    List<Plant> getPlantsByBottomGenerationOutput(Integer size, String orderBy);
 }

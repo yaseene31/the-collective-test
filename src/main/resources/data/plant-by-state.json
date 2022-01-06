@@ -1,0 +1,182 @@
+[
+  {
+    "id": 10,
+    "year": 2019,
+    "state": "AK",
+    "name": "7-Mile Ridge Wind Project",
+    "generatorId": "WT1",
+    "generatorStatus": "CN",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 11,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "744A",
+    "generatorStatus": "OS",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 12,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "744B",
+    "generatorStatus": "OS",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 13,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "744C",
+    "generatorStatus": "OS",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 14,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "744D",
+    "generatorStatus": "OS",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 15,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "744E",
+    "generatorStatus": "OS",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 16,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "644A",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 17,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "644B",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 18,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "644C",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 19,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "644D",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 20,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "644E",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 21,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "644F",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 22,
+    "year": 2019,
+    "state": "AK",
+    "name": "Agrium Kenai Nitrogen Operations",
+    "generatorId": "644G",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 23,
+    "year": 2019,
+    "state": "AK",
+    "name": "Alakanuk",
+    "generatorId": "UNIT4",
+    "generatorStatus": "SB",
+    "generatorAnnualNetGeneration": "14"
+  },
+  {
+    "id": 24,
+    "year": 2019,
+    "state": "AK",
+    "name": "Alakanuk",
+    "generatorId": "G309",
+    "generatorStatus": "CN",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 25,
+    "year": 2019,
+    "state": "AK",
+    "name": "Alakanuk",
+    "generatorId": "UNIT1",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 26,
+    "year": 2019,
+    "state": "AK",
+    "name": "Alakanuk",
+    "generatorId": "UNIT2",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 27,
+    "year": 2019,
+    "state": "AK",
+    "name": "Alakanuk",
+    "generatorId": "UNIT3",
+    "generatorStatus": "RE",
+    "generatorAnnualNetGeneration": "0"
+  },
+  {
+    "id": 28,
+    "year": 2019,
+    "state": "AK",
+    "name": "Allison Creek Hydro",
+    "generatorId": "GEN1",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": "19135"
+  },
+  {
+    "id": 29,
+    "year": 2019,
+    "state": "AK",
+    "name": "Ambler",
+    "generatorId": "1",
+    "generatorStatus": "OP",
+    "generatorAnnualNetGeneration": "428"
+  }
+]
